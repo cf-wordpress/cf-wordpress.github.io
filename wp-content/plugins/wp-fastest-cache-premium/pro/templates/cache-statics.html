@@ -1,0 +1,80 @@
+<h2 id="cache-statics-h2" style="padding-left:20px;padding-bottom:10px;"><?php _e("Cache Statistics", "wp-fastest-cache"); ?></h2>
+<div id="wpfc-cache-statics" style="width:100%;float:right;margin:15px 0;">
+	<style type="text/css">
+		#wpfc-cache-statics > div{
+			float: left;
+			width: 24%;
+			text-align: center;
+		}
+		#wpfc-cache-statics > div > p{
+			font-size: 1.3em;
+			font-weight: 600;
+			margin-top: 10px;
+		}
+		#wpfc-cache-statics-desktop, #wpfc-cache-statics-mobile, #wpfc-cache-statics-css {
+			border-right: 1px solid #ddd;
+		}
+	</style>
+	<div id="wpfc-cache-statics-desktop" style="margin-left:1%;">
+		<i class="flaticon-desktop1"></i> 
+		<p id="wpfc-cache-statics-desktop-data">0Kb / 0 Items</p>
+	</div>
+	<div id="wpfc-cache-statics-mobile">
+		<i class="flaticon-smart"></i> 
+		<p id="wpfc-cache-statics-mobile-data">0Kb / 0 Items</p>
+	</div>
+	<div id="wpfc-cache-statics-css">
+		<i class="flaticon-css4"></i> 
+		<p id="wpfc-cache-statics-css-data">0Kb / 0 Items</p>
+	</div>
+	<div id="wpfc-cache-statics-js">
+		<i class="flaticon-js"></i> 
+		<p id="wpfc-cache-statics-js-data">0Kb / 0 Items</p>
+	</div>
+</div>
+<script type="text/javascript">
+	var WpFcCacheStatics = {
+		admin_ajax_url: "<?php echo admin_url(); ?>admin-ajax.php",
+		init: function(){
+			var self = this;
+
+    		jQuery("#wpfc-deleteCache").change(function(e){
+    			jQuery("#revert-loader-toolbar").show();
+    			self.update();
+    		});
+
+    		if(jQuery(".tab2").is(":visible")){
+    			jQuery(document).ready(function(){
+    				jQuery("#revert-loader-toolbar").show();
+    				self.update();
+    			});
+    		}
+		},
+		update: function(){
+			var self = this;
+			var html = "";
+			var size = 0;
+			var file = 0;
+
+			jQuery.ajax({
+				type: 'GET', 
+				url: self.admin_ajax_url,
+				dataType : "json",
+				data : {"action": "wpfc_cache_statics_get"},
+				cache: false, 
+				success: function(data){
+					jQuery.each(data, function(e, i){
+						size = data[e]["size"] ? data[e]["size"] + "" : "0";
+						file = data[e].file ? data[e].file : 0;
+						html = size.replace(/\d{2}$/, "") + "Kb / " + file + " Items";
+						
+						jQuery("#wpfc-cache-statics-" + e + "-data").html(html);
+					});
+					jQuery("#revert-loader-toolbar").hide();
+				}
+			});
+		}
+	};
+	
+	WpFcCacheStatics.init();
+</script>

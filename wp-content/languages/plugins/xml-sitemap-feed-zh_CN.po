@@ -1,0 +1,484 @@
+# Translation of Plugins - XML Sitemap &amp; Google News - Stable (latest release) in Chinese (China)
+# This file is distributed under the same license as the Plugins - XML Sitemap &amp; Google News - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2018-10-30 10:59:04+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: zh_CN\n"
+"Project-Id-Version: Plugins - XML Sitemap &amp; Google News - Stable (latest release)\n"
+
+#. Description of the plugin/theme
+msgid "Feed the  hungry spiders in compliance with the XML Sitemap and Google News protocols. Happy with the results? Please leave me a <strong><a href=\"https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=ravanhagen%40gmail%2ecom&item_name=XML%20Sitemap%20Feed\">tip</a></strong> for continued development and support. Thanks :)"
+msgstr "通过 XML 站点地图与 Google News 控制台喂养那些饥饿的爬虫。对结果还满意吗？不妨考虑给我打赏一笔<strong><a href=\"https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=ravanhagen%40gmail%2ecom&item_name=XML%20Sitemap%20Feed\">小费</a></strong>，以鼓励未来的开发与支持。谢谢！:)"
+
+#: includes/class-xmlsitemapfeed-admin.php:645
+msgid "The FactCheck label may be applied if you publish stories with fact-checking content that's indicated by schema.org ClaimReview markup."
+msgstr "只有您发表的内容被 schema.org ClaimReview 标记为事实检查（Fact-Checking）内容时，您才可以使用 FackCheck 标签。"
+
+#: includes/class-xmlsitemapfeed-admin.php:645
+msgid "Use Ctrl plus click to select more than one or to deselect."
+msgstr "按住 Ctrl 键再点击以选择多项或取消选定。"
+
+#: includes/class-xmlsitemapfeed-admin.php:635
+msgid "FactCheck"
+msgstr "FactCheck"
+
+#: includes/class-xmlsitemapfeed-admin.php:634
+msgid "UserGenerated"
+msgstr "用户创建内容（UserGenerated）"
+
+#: includes/class-xmlsitemapfeed-admin.php:633
+msgid "Opinion"
+msgstr "选项"
+
+#: includes/class-xmlsitemapfeed-admin.php:632
+msgid "OpEd"
+msgstr "OpEd"
+
+#: includes/class-xmlsitemapfeed-admin.php:631
+msgid "Blog"
+msgstr "Blog"
+
+#: includes/class-xmlsitemapfeed-admin.php:630
+msgid "Satire"
+msgstr "讽刺"
+
+#: includes/class-xmlsitemapfeed-admin.php:629
+msgid "PressRelease"
+msgstr "新闻稿"
+
+#: includes/class-xmlsitemapfeed-admin.php:598
+msgid "Source labels provide more information about the content of your articles."
+msgstr "来源标签（Source labels）能够提供有关您的文章的更多信息。"
+
+#: includes/class-xmlsitemapfeed-admin.php:310
+msgid "Update Lastmod on comments."
+msgstr "在评论中更新最后一次修改日期。"
+
+#: includes/functions.php:18 includes/functions.php:37
+msgid "Conditional sitemap tags do not work before the sitemap request filter is run. Before then, they always return false."
+msgstr "在站点地图请求过滤器运行之前，限定式站点地图标签将不会启用。此时它们总会返回 False。"
+
+#: includes/class-xmlsitemapfeed-admin.php:211
+msgid "Selecting this will clear all XML Sitemap & Google News Sitemap settings after Save Changes. Are you sure?"
+msgstr "选中此选项后将在保存设置后清除所有 XML 站点地图与谷歌新闻站点地图设置。是否确定？"
+
+#: includes/class-xmlsitemapfeed-admin.php:212
+msgid "Clear all XML Sitemap & Google News Sitemap settings."
+msgstr "清除所有 XML 站点地图与谷歌新闻站点地图设置。"
+
+#: includes/class-xmlsitemapfeed-admin.php:215
+msgid "Check this option and Save Changes to start fresh with the default settings."
+msgstr "选中此选项并保存设置，以开始重置所有设置至默认状态。"
+
+#: includes/class-xmlsitemapfeed-admin.php:305
+msgid "Automatic Priority calculation."
+msgstr "自动计算优先级。"
+
+#: includes/class-xmlsitemapfeed-admin.php:305
+msgid "Adjusts the Priority based on factors like age, comments, sticky post or blog page. Individual posts with fixed Priority will always keep that value."
+msgstr "基于诸如存在时间、评论、置顶文章或博客页面等诸因素进行调整。个别具有固定优先级的文章将始终保持其设定值与状态。"
+
+#: includes/class-xmlsitemapfeed-admin.php:922
+msgid "Google News"
+msgstr "谷歌新闻"
+
+#: includes/class-xmlsitemapfeed-admin.php:609
+msgid "You can assign a different access level when writing a post."
+msgstr "在撰写文章时，你可以为其分配不同的访问级别。"
+
+#: includes/class-xmlsitemapfeed-admin.php:615
+#: includes/class-xmlsitemapfeed-admin.php:620
+msgid "Free registration"
+msgstr "免费注册"
+
+#: includes/class-xmlsitemapfeed-admin.php:616
+#: includes/class-xmlsitemapfeed-admin.php:621
+msgid "Paid subscription"
+msgstr "付费订阅"
+
+#: includes/class-xmlsitemapfeed-admin.php:946
+msgid "Access"
+msgstr "连接"
+
+#: includes/class-xmlsitemapfeed-admin.php:955
+msgid "Exclude from Google News Sitemap."
+msgstr "从谷歌新闻站点地图中排除。"
+
+#: includes/class-xmlsitemapfeed-admin.php:22
+msgid "XML Sitemaps"
+msgstr "XML 站点地图"
+
+#: includes/class-xmlsitemapfeed-admin.php:23
+msgid "XML Sitemap Index"
+msgstr "XML 站点地图索引"
+
+#: includes/class-xmlsitemapfeed-admin.php:28
+#: includes/class-xmlsitemapfeed-admin.php:1071
+msgid "Google News Sitemap"
+msgstr "谷歌新闻站点地图"
+
+#: includes/class-xmlsitemapfeed-admin.php:72
+msgid "Google"
+msgstr "Google"
+
+#: includes/class-xmlsitemapfeed-admin.php:75
+msgid "Bing & Yahoo"
+msgstr "Bing & Yahoo"
+
+#: includes/class-xmlsitemapfeed-admin.php:78
+msgid "Yandex"
+msgstr "Yandex"
+
+#: includes/class-xmlsitemapfeed-admin.php:81
+msgid "Baidu"
+msgstr "百度"
+
+#: includes/class-xmlsitemapfeed-admin.php:84
+msgid "Ping-O-Matic"
+msgstr "Ping-O-Matic"
+
+#: includes/class-xmlsitemapfeed-admin.php:140
+msgid "Successfully sent %1$s on %2$s."
+msgstr "已成功 %2$s 中的 %1$s。"
+
+#: includes/class-xmlsitemapfeed-admin.php:201
+#: includes/class-xmlsitemapfeed-admin.php:392
+#: includes/class-xmlsitemapfeed-admin.php:1059
+msgid "Additional robots.txt rules"
+msgstr "额外 robots.txt 规则"
+
+#: includes/class-xmlsitemapfeed-admin.php:202
+msgid "Rules that will be appended to the %s generated by WordPress:"
+msgstr "这些规则将会被加入由 WordPress 生成的 %s 中："
+
+#: includes/class-xmlsitemapfeed-admin.php:203
+msgid "These rules will not have effect when you are using a static robots.txt file."
+msgstr "在你使用 robots.txt 文件时，下面这些文件将不会产生作用。"
+
+#: includes/class-xmlsitemapfeed-admin.php:203
+msgid "Only add rules here when you know what you are doing, otherwise you might break search engine access to your site."
+msgstr "请在你明确了解自己正在进行的行为的情况下添加规则，否则你可能导致搜索引擎对您网站的链接。"
+
+#: includes/class-xmlsitemapfeed-admin.php:209
+#: includes/class-xmlsitemapfeed-admin.php:1066
+msgid "Reset XML sitemaps"
+msgstr "重置 XML 站点地图"
+
+#: includes/class-xmlsitemapfeed-admin.php:224
+#: includes/class-xmlsitemapfeed-admin.php:225
+#: includes/class-xmlsitemapfeed-admin.php:462
+#: includes/class-xmlsitemapfeed-admin.php:463
+msgid "Donate to keep the free %s plugin development & support going!"
+msgstr "捐赠 %s 免费插件以协助插件的继续开发！"
+
+#: includes/class-xmlsitemapfeed-admin.php:224
+#: includes/class-xmlsitemapfeed-admin.php:225
+#: includes/class-xmlsitemapfeed-admin.php:226
+#: includes/class-xmlsitemapfeed-admin.php:462
+#: includes/class-xmlsitemapfeed-admin.php:463
+#: includes/class-xmlsitemapfeed-admin.php:464
+msgid "XML Sitemap & Google News Feeds"
+msgstr "XML Sitemap & Google News Feeds"
+
+#: includes/class-xmlsitemapfeed-admin.php:226
+msgid "These settings control the XML Sitemaps generated by the %s plugin."
+msgstr "这些设置用以控制 XML 站点地图，由 %s 插件自自动生成。"
+
+#: includes/class-xmlsitemapfeed-admin.php:227
+#: includes/class-xmlsitemapfeed-admin.php:467
+msgid "For ping options, go to %s."
+msgstr "要调整 ping 配置，请前往 %s。"
+
+#: includes/class-xmlsitemapfeed-admin.php:239
+msgid "XML Sitemaps for post types"
+msgstr "基于文章类型的 XML 站点地图"
+
+#: includes/class-xmlsitemapfeed-admin.php:278
+msgid "Year"
+msgstr "年"
+
+#: includes/class-xmlsitemapfeed-admin.php:279
+msgid "Month"
+msgstr "月"
+
+#: includes/class-xmlsitemapfeed-admin.php:283
+msgid "Split by"
+msgstr "划分基于"
+
+#: includes/class-xmlsitemapfeed-admin.php:293
+msgid "Split by year if you experience errors or slow sitemaps. In very rare cases, split by month is needed."
+msgstr "当你的站点地图访问速度过慢或出现错误时，采用以年划分的方式。在极少数情况下，须按月进行划分。"
+
+#: includes/class-xmlsitemapfeed-admin.php:298
+#: includes/class-xmlsitemapfeed-admin.php:902
+msgid "Priority"
+msgstr "优先级"
+
+#: includes/class-xmlsitemapfeed-admin.php:300
+msgid "Priority can be overridden on individual posts."
+msgstr "优先级可在独立文章设置中被覆盖。"
+
+#: includes/class-xmlsitemapfeed-admin.php:310
+msgid "Set this if discussion on your site warrants reindexation upon each new comment."
+msgstr "当你站点上的讨论会为每条新评论进行 Reindexation 时，启用本设置。"
+
+#: includes/class-xmlsitemapfeed-admin.php:315
+#: includes/class-xmlsitemapfeed-admin.php:581
+msgid "Add image tags for"
+msgstr "为其添加图片标签"
+
+#: includes/class-xmlsitemapfeed-admin.php:323
+#: includes/class-xmlsitemapfeed-admin.php:588
+msgid "Attached images"
+msgstr "附加的图片"
+
+#: includes/class-xmlsitemapfeed-admin.php:333
+msgid "Priority settings do not affect ranking in search results in any way. They are only meant to suggest search engines which URLs to index first. Once a URL has been indexed, its Priority becomes meaningless until its Lastmod is updated."
+msgstr "优先级设置不会对搜索结果中的先后等级造成任何影响。它们只是向搜索引擎建议哪个链接应当被优先索引。一旦某链接被索引，其优先级设置便变得毫无意义，直至该链接的 Lastmod 标签出现更新。"
+
+#: includes/class-xmlsitemapfeed-admin.php:334
+msgid "Maximum Priority (1.0) is reserved for the front page, individual posts and, when allowed, posts with high comment count."
+msgstr "最高优先级（1.0）默认预留给最前页与独立文章，在允许的情况下，也将会分配给评论数高的文章。"
+
+#: includes/class-xmlsitemapfeed-admin.php:334
+msgid "Priority values are taken as relative values. Setting all to the same (high) value is pointless."
+msgstr "优先级数值是一个相对数值。为所有文章或页面设置一个相同的优先级是无意义的。"
+
+#: includes/class-xmlsitemapfeed-admin.php:384
+msgid "XML Sitemaps for taxonomies"
+msgstr "基于分类的 XML 站点地图"
+
+#: includes/class-xmlsitemapfeed-admin.php:390
+msgid "It is generally not recommended to include taxonomy pages, unless their content brings added value."
+msgstr "通常情况下并不推荐包含分类页，除非它们的内容具有附加价值。"
+
+#: includes/class-xmlsitemapfeed-admin.php:391
+msgid "For example, when you use category descriptions with information that is not present elsewhere on your site or if taxonomy pages list posts with an excerpt that is different from, but complementary to the post content. In these cases you might consider including certain taxonomies. Otherwise, if you fear <a href=\"http://moz.com/learn/seo/duplicate-content\">negative affects of duplicate content</a> or PageRank spread, you might even consider disallowing indexation of taxonomies."
+msgstr "例如，当你在分类说明中提供了一些在你站点其他地方都不存在，或刊载分类列的文章内包含了不同来源的内容，本设置会有所帮助。此外，如果你担心<a href=\"http://moz.com/learn/seo/duplicate-content\">重复内容会带来的负面影响</a>或 PageRank 传播的潜在影响，你甚至可以考虑禁用分类的指数化。"
+
+#: includes/class-xmlsitemapfeed-admin.php:392
+msgid "You can do this by adding specific robots.txt rules in the %s field above."
+msgstr "你可以通过在上方 %s 栏中添加特定的 Robots.txt 规则来达成此目的。"
+
+#: includes/class-xmlsitemapfeed-admin.php:407
+msgid "No taxonomies available for the currently included post types."
+msgstr "在当前已包含的文章类型中没有可用的分类。"
+
+#: includes/class-xmlsitemapfeed-admin.php:415
+#: includes/class-xmlsitemapfeed-admin.php:1100
+msgid "Include custom XML Sitemaps"
+msgstr "包含自定义的 XML 站点地图"
+
+#: includes/class-xmlsitemapfeed-admin.php:416
+msgid "Additional XML Sitemaps to append to the main XML Sitemap Index:"
+msgstr "增加额外 XML 站点地图追加至主 XML 站点地图主页："
+
+#: includes/class-xmlsitemapfeed-admin.php:418
+msgid "Add the full URL, including protocol (http/https) and domain, of any XML Sitemap that you want to append to the Sitemap Index. Start each URL on a new line."
+msgstr "将你希望添加至主站点地图索引的 XML 站点地图的添加包含协议（HTTP/HTTPS）及域名的完整 URL 填入下面的方框中，每一个 URL 应占有独立一行。"
+
+#: includes/class-xmlsitemapfeed-admin.php:418
+msgid "Only valid sitemaps are allowed in the Sitemap Index. Use your Google/Bing Webmaster Tools to verify!"
+msgstr "只有有效的站点地图会被收录在站点地图索引中。记得使用你的 Google/Bing 站长工具来验证它们！"
+
+#: includes/class-xmlsitemapfeed-admin.php:435
+#: includes/class-xmlsitemapfeed-admin.php:1097
+msgid "Include custom URLs"
+msgstr "包含自定义链接"
+
+#: includes/class-xmlsitemapfeed-admin.php:436
+msgid "Additional URLs to append in an extra XML Sitemap:"
+msgstr "添加额外链接以附加一个新的 XML 站点地图："
+
+#: includes/class-xmlsitemapfeed-admin.php:438
+msgid "Add the full URL, including protocol (http/https) and domain, of any (static) page that you want to append to the ones already included by WordPress. Optionally add a priority value between 0 and 1, separated with a space after the URL. Start each URL on a new line."
+msgstr "将你希望添加至由 WordPress 主动生成的页面列表中的（静态）页面的包含协议（HTTP/HTTPS）及域名的完整 URL 填入下面的方框中。你可以在 URL 之后为其添加 0 至 1 之间的优先级指数，二者用一个空格隔开。每一个 URL 应占有独立一行。"
+
+#: includes/class-xmlsitemapfeed-admin.php:448
+#: includes/class-xmlsitemapfeed-admin.php:1094
+msgid "Allowed domains"
+msgstr "允许的域名"
+
+#: includes/class-xmlsitemapfeed-admin.php:449
+msgid "Additional domains to allow in the XML Sitemaps:"
+msgstr "允许 XML 站点地图收录的额外域名："
+
+#: includes/class-xmlsitemapfeed-admin.php:450
+msgid "By default, only the domain %s as used in your WordPress site address is allowed. This means that all URLs that use another domain (custom URLs or using a plugin like Page Links To) are filtered from the XML Sitemap. However, if you are the verified owner of other domains in your Google/Bing Webmaster Tools account, you can include these in the same sitemap. Add these domains, without protocol (http/https) each on a new line. Note that if you enter a domain with www, all URLs without it or with other subdomains will be filtered."
+msgstr "在默认情况下，唯有你在此 WordPress 站点下采用的 %s 域名会被允许收录进站点地图中。这意味着其他所有使用别的域名的链接（自定义链接或采用诸如 Page Links To 等插件跳转的链接）将被过滤在 XML 站点地图之外。虽然如此，如果域名已经在 Google/Bing 站长工具中进行验证，你可以将其包括在同一站点地图中。将这些域名以包含协议（HTTP/HTTPS）的形式填入下框，每个域名均新起一行。注意：如果你输入的域名包含 www，则所有不包含 www 的链接及所有子域名的链接都将会被过滤在站点地图之外。"
+
+#: includes/class-xmlsitemapfeed-admin.php:464
+msgid "These settings control the Google News Sitemap generated by the %s plugin."
+msgstr "这些设置是由 %s 插件生成，用以控制谷歌新闻站点地图的生成。"
+
+#: includes/class-xmlsitemapfeed-admin.php:465
+msgid "When you are done configuring and preparing your news content and you are convinced your site adheres to the <a href=\"https://support.google.com/news/publisher/answer/40787\" target=\"_blank\">Google News guidelines</a>, go ahead and <a href=\"https://partnerdash.google.com/partnerdash/d/news\" target=\"_blank\">submit your site for inclusion</a>!"
+msgstr "如果你已配置完毕并开始准备你的新闻内容，并确信你的网站能够恪守<a href=\"https://support.google.com/news/publisher/answer/40787\" target=\"_blank\">谷歌新闻准则</a>，便去<a href=\"https://partnerdash.google.com/partnerdash/d/news\" target=\"_blank\">提交你的网站收录请求吧</a>！"
+
+#: includes/class-xmlsitemapfeed-admin.php:466
+msgid "It is strongly recommended to submit your news sitemap to your Google Webmasters Tools account to monitor for warnings or errors. Read more on how to <a href=\"https://support.google.com/webmasters/answer/183669\" target=\"_blank\">Manage sitemaps with the Sitemaps page</a>."
+msgstr "我们强烈推荐将你的新闻站点地图提交至你的 Google 站长工具帐号中，以监控是否会有警告与错误。阅读该如何<a href=\"https://support.google.com/webmasters/answer/183669\" target=\"_blank\">使用站点地图报告管理站点地图</a>以了解更多信息。"
+
+#: includes/class-xmlsitemapfeed-admin.php:477
+#: includes/class-xmlsitemapfeed-admin.php:1074
+msgid "Publication name"
+msgstr "出版物名称"
+
+#: includes/class-xmlsitemapfeed-admin.php:478
+msgid "By default, the general %s setting will be used."
+msgstr "默认情况下，将会使用一般 %s 设置。"
+
+#: includes/class-xmlsitemapfeed-admin.php:479
+msgid "The publication name should match the name submitted on the Google News Publisher Center. If you wish to change it, please read <a href=\"https://support.google.com/news/publisher/answer/40402\" target=\"_blank\">Updated publication name</a>."
+msgstr "出版物名称应与谷歌新闻发布商中心提交的姓名相同。如果你希望进行改变，请阅读<a href=\"https://support.google.com/news/publisher/answer/40402\" target=\"_blank\">更新公开名称</a>"
+
+#: includes/class-xmlsitemapfeed-admin.php:495
+msgid "Error: There where no valid post types found. Without at least one public post type, a Google News Sitemap cannot be created by this plugin. Please deselect the option Google News Sitemap at <a href=\"#xmlsf_sitemaps\">Enable XML sitemaps</a> and choose another method."
+msgstr "错误：找不到有效的文章类型。需要提供至少一种公开文章类型，本插件便不能创建一个谷歌新闻站点地图。请在<a href=\"#xmlsf_sitemaps\">启用 XML 站点地图</a>选项中取消勾选“谷歌新闻站点地图”并选择其他方案。"
+
+#: includes/class-xmlsitemapfeed-admin.php:498
+#: includes/class-xmlsitemapfeed-admin.php:1075
+#: includes/class-xmlsitemapfeed-admin.php:1088
+msgid "Include post types"
+msgstr "包含的文章类型"
+
+#: includes/class-xmlsitemapfeed-admin.php:524
+msgid "At least one post type must be selected. By default, the post type %s will be used."
+msgstr "至少应选择一种文章类型。在默认情况下，将会使用 %s 这一文章类型。"
+
+#: includes/class-xmlsitemapfeed-admin.php:535
+msgid "Selection based on categories will be available when <strong>only</strong> the post type %s is included above."
+msgstr "基于目录选项将在且<strong>只在</strong>文章类型 %s 在上方被包括在内的情况下可用。"
+
+#: includes/class-xmlsitemapfeed-admin.php:553
+msgid "Limit to posts in these post categories:"
+msgstr "在这些文章分类下收录文章的限制数量："
+
+#: includes/class-xmlsitemapfeed-admin.php:569
+msgid "If you wish to limit posts that will feature in your News Sitemap to certain categories, select them here. If no categories are selected, posts of all categories will be included in your News Sitemap."
+msgstr "如果你希望限制你的新闻站点地图中某些类别下的文章数量，在此处进行选择。如果没有类别被选中，所有类别的文章都将被囊括进你的新闻站点地图中。"
+
+#: includes/class-xmlsitemapfeed-admin.php:569
+msgid "Use the Ctrl/Cmd key plus click to select more than one or to deselect."
+msgstr "使用 Ctrl/Cmd 键来多选或取消选中一项或多项。"
+
+#: includes/class-xmlsitemapfeed-admin.php:591
+msgid "Note: Google News prefers at most one image per article in the News Sitemap. If multiple valid images are specified, the crawler will have to pick one arbitrarily. Images in News Sitemaps should be in jpeg or png format."
+msgstr "注意：谷歌新闻希望在新闻站点地图中为每篇文章附议至多一张图片。如果指定了多张有效图像，抓取工具将随机从中选择一张。为新闻站点地图提供的图片应为 jpg 或 png 格式。"
+
+#: includes/class-xmlsitemapfeed-admin.php:597
+#: includes/class-xmlsitemapfeed-admin.php:1078
+msgid "Source labels"
+msgstr "来源标签"
+
+#: includes/class-xmlsitemapfeed-admin.php:608
+msgid "The %4$s tag specifies whether an article is available to all readers (%1$s), or only to those with a free (%2$s) or paid membership (%3$s) to your site."
+msgstr "$4$s 标签表示该文章是否开放给所有读者阅读（%1$s），或只对你的站点的免费用户（%2$s）或付费用户（%3$s）开放。"
+
+#: includes/class-xmlsitemapfeed-admin.php:608
+#: includes/class-xmlsitemapfeed-admin.php:950
+msgid "Registration"
+msgstr "注册"
+
+#: includes/class-xmlsitemapfeed-admin.php:608
+#: includes/class-xmlsitemapfeed-admin.php:951
+msgid "Subscription"
+msgstr "订阅"
+
+#: includes/class-xmlsitemapfeed-admin.php:613
+msgid "Tag normal posts as"
+msgstr "一般文章标签为"
+
+#: includes/class-xmlsitemapfeed-admin.php:619
+msgid "Tag Password Protected posts as"
+msgstr "密码保护文章标签为"
+
+#: includes/class-xmlsitemapfeed-admin.php:642
+msgid "The %s tag specifies one or more properties for an article, namely, whether it is a press release, a blog post, an opinion, an op-ed piece, user-generated content, or satire."
+msgstr "%s 标签将为一篇文章指定一个或多个属性，意即，该文章可以是新闻稿、博客文章、评论、专栏文章、用户生成内容、或讽刺作品。"
+
+#: includes/class-xmlsitemapfeed-admin.php:642
+msgid "You can assign different genres when writing a post."
+msgstr "你可以在撰写文章时为其分配多种体裁或类型。"
+
+#: includes/class-xmlsitemapfeed-admin.php:647
+msgid "Default genre:"
+msgstr "默认体裁："
+
+#: includes/class-xmlsitemapfeed-admin.php:645
+msgid "Read more about source labels on %s"
+msgstr "阅读更多有关 %s 的来源标签信息。"
+
+#: includes/class-xmlsitemapfeed-admin.php:645
+msgid "What does each source label mean?"
+msgstr "每个来源标签都代表什么意思？"
+
+#: includes/class-xmlsitemapfeed-admin.php:661
+msgid "The %s tag is used to help classify the articles you submit to Google News by <strong>topic</strong>."
+msgstr "%s 常被用来帮助您按<strong>话题</strong>对要提交给谷歌新闻的文章进行分类。"
+
+#: includes/class-xmlsitemapfeed-admin.php:663
+msgid "Use %s for topics."
+msgstr "使用 %s 作为话题。"
+
+#: includes/class-xmlsitemapfeed-admin.php:670
+msgid "Default topic(s):"
+msgstr "默认话题："
+
+#: includes/class-xmlsitemapfeed-admin.php:672
+msgid "Separate with a comma."
+msgstr "用单个逗号进行分隔。"
+
+#: includes/class-xmlsitemapfeed-admin.php:676
+msgid "Keywords may be drawn from, but are not limited to, the list of <a href=\"https://support.google.com/news/publisher/answer/116037\" target=\"_blank\">existing Google News keywords</a>."
+msgstr "关键词可以来源于，但不限于<a href=\"https://support.google.com/news/publisher/answer/116037\" target=\"_blank\">已有的谷歌新闻关键词</a>列表。"
+
+#: includes/class-xmlsitemapfeed-admin.php:870
+#: includes/class-xmlsitemapfeed-admin.php:1085
+msgid "XML Sitemap"
+msgstr "XML 站点地图"
+
+#: includes/class-xmlsitemapfeed-admin.php:908
+msgid "Exclude from XML Sitemap"
+msgstr "从 XML 站点地图中排除"
+
+#: includes/class-xmlsitemapfeed-admin.php:904
+msgid "Leave empty for automatic Priority as configured on %1$s > %2$s."
+msgstr "留空则自动配置优先级为 %1$s > %2$s。"
+
+#: includes/class-xmlsitemapfeed-admin.php:1053
+msgid "Enable XML sitemaps"
+msgstr "启用 XML 站点地图"
+
+#: includes/class-xmlsitemapfeed-admin.php:1091
+msgid "Include taxonomies"
+msgstr "包含分类"
+
+#: includes/class-xmlsitemapfeed.php:1830
+msgid "Google News Genres"
+msgstr "谷歌新闻体裁"
+
+#: includes/class-xmlsitemapfeed.php:1831
+msgid "Google News Genre"
+msgstr "谷歌新闻体裁"
+
+#. Plugin Name of the plugin/theme
+msgid "XML Sitemap & Google News feeds"
+msgstr "XML 站点地图 & 谷歌新闻订阅源"
+
+#. Plugin URI of the plugin/theme
+msgid "http://status301.net/wordpress-plugins/xml-sitemap-feed/"
+msgstr "http://status301.net/wordpress-plugins/xml-sitemap-feed/"
+
+#. Author of the plugin/theme
+msgid "RavanH"
+msgstr "RavanH"
+
+#. Author URI of the plugin/theme
+msgid "http://status301.net/"
+msgstr "http://status301.net/"

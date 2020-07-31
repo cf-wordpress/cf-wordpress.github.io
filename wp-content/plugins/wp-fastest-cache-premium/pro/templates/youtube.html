@@ -1,0 +1,45 @@
+<html>
+<head>
+<style type="text/css">
+body{background-color:#000;color:#fff;font:12px Roboto,Arial,sans-serif;height:100%;margin:0;overflow:hidden;padding:0;position:absolute;width:100%}
+.y{background-position:center center;background-repeat:no-repeat;background-size:cover;height:100%;position:absolute;width:100%}
+.yb{position:absolute;cursor:pointer;width:90px;height:60px;background-color:#333;box-shadow:0 0 30px rgba(0,0,0,0.6);z-index:1;opacity:.8;border-radius:6px}
+.yb:before{content:"";border-style:solid;border-width:15px 0 15px 26px;border-color:transparent transparent transparent #fff}
+.yb, .yb:before{position:absolute;top:50%;left:50%;transform:translate3d(-50%,-50%,0)}
+.yb:hover{background-color:#ff0000;}
+iframe{position:absolute;height:100%;width:100%;top:0;left:0;}
+</style>
+</head>
+<body>
+<div id="d" class="y">
+<div class="yb"></div>
+<script type="text/javascript">
+var i=location.hash.match(/\#([^\?]+)/);
+function img(){
+var q = window.innerWidth < 321 ? "mqdefault" : (window.innerWidth > 320 && window.innerWidth < 481 ? "hqdefault" : (window.innerWidth > 480 && window.innerWidth < 750 ? "sddefault" : "maxresdefault"));
+var img = document.createElement("IMG");
+img.setAttribute( "src", 'https://i.ytimg.com/vi/' + i[1] + '/' + q + '.jpg');
+img.addEventListener('load', function(e){
+	if(e.target.width == 120 && e.target.height == 90 && window.innerWidth > 320){
+		e.target.setAttribute( "src", 'https://i.ytimg.com/vi/' + i[1] + '/' + "hqdefault" + '.jpg');
+	}
+	document.getElementById("d").style["background-image"] = 'url(' + e.target.src + ')';
+});
+};
+window.addEventListener('resize', function(){img();});
+window.addEventListener('load', function(){img();});
+document.getElementById("d").addEventListener("click", function(){
+var start = window.location.hash.match(/[^a-zA-Z\d\s:](start\=\d+)/i);
+var hash = ["rel=0", "showinfo=0", "autoplay=1"];
+var ifrm = document.createElement("iframe");
+if(start){hash.push(start[1]);}
+ifrm.setAttribute("frameborder", "0");
+ifrm.setAttribute("allowfullscreen", "");
+ifrm.setAttribute( "src", "https://www.youtube.com/embed/"+ i[1] +"?" + hash.join("&"));
+this.innerHTML = "";
+this.appendChild(ifrm);
+});
+</script>
+</div>
+</body>
+</html>
