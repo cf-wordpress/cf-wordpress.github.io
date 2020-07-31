@@ -19,6 +19,9 @@ wp-settings.php
 wp-signup.php
 wp-trackback.php
 xmlrpc.php
+CNAME
+.htaccess
+.htpasswd
 
 /wp-content/cache/*
 /ad/*
